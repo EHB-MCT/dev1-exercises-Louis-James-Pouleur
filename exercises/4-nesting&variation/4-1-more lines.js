@@ -30,6 +30,8 @@ function drawLines() {
 }
 
 
+
+
 drawLines2();
 function drawLines2(){
     let step = 10;
