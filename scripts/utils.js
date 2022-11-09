@@ -44,3 +44,11 @@ export function fillAndStrokeEllipse(x, y, rX, rY){
     context.stroke();
      context.fill();
 }
+
+export function fillCircle(x, y, radius) {
+    fillEllipse(x, y, radius, radius);
+}
+
+export function calculateDistance(x1, y1, x2, y2) {
+    return Math.hypot(x2 - x1, y2 - y1);
+}
