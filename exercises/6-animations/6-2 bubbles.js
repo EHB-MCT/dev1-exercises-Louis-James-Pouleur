@@ -8,8 +8,7 @@ let height = context.canvas.height;
 drawBubbles();
 
 function drawBubbles() {
-	
-    let x = Utils.randomNumber(0, width);
+	let x = Utils.randomNumber(0, width);
 	let y = Utils.randomNumber(0, height);
 	let radius = Utils.randomNumber(5, 100);
 	let hue = Utils.randomNumber(100, 240);
